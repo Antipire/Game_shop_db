@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="5048BD22-10EB-EBED-6E8D-C0B035ACB98A">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:45:21 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<sourcePk>1D907A0D-F05C-64E4-2376-AD10FB06ADE5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73299DAB-15A3-D976-7DB2-3C6BC3F4855C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E7A35E4-1D8C-E958-AFBE-E1FEB61F1233</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

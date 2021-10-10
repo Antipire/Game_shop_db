@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Games" directorySegmentName="seg_0" id="BAD5683D-5AB4-E097-528E-C6510F5EC383">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Game_name" id="0CCA8417-93F0-6051-59F0-4718CCFA6A8A">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Games" id="176B779B-03A1-E5F8-832A-D430328F0FFC">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Description" id="1E4CF130-A0D4-77D6-9639-042D27457C31">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Age_restriction" id="61E4F0F5-4177-C08B-D190-94C54EF5D5F7">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Price" id="F51AFD6B-E3CF-59F9-D58D-A08AB901CF67">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Games_PK" id="C486D345-09F0-BF58-BC3A-2247BBB419CF">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Workers" directorySegmentName="seg_0" id="29A058F9-FB7F-F463-A208-75D0DD4EC379">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Age" id="3987D4EC-43B6-5E4B-3595-D4600BB1AF8A">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Shops_ID_Shop" id="712F07D9-EA44-CD7C-E4EC-EC37588C75B6">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Orders_ID_Order" id="7B3A754E-E05A-85E2-8F3B-45A2BC7E770F">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Full_name" id="8475924C-DFF8-E527-76F7-2D405F972C3D">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Position" id="93FA9D52-4FE2-A736-5FBE-46D2818E2218">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Worker" id="9E486A24-E517-D71D-3276-8233DD3A67CF">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Workers__IDXv1" id="6D4CFC4F-68D7-56AC-2F35-C0B60BE44365">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Workers__IDX" id="DF40AE5F-352B-F4ED-2024-BD133B790944">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Workers_Orders_FK" id="0E026BB3-4054-EF14-36B9-E24E91A32DF4">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Workers_Shops_FK" id="BFE211FA-3B01-8F1E-20AF-5783E4564492">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Workers_PK" id="8126A2B8-696A-C805-8219-3F59229E66EE">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

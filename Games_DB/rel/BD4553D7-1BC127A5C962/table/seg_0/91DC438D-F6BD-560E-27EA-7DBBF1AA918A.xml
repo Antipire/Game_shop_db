@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91DC438D-F6BD-560E-27EA-7DBBF1AA918A" name="Buyers">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>804BD952-C7D4-5967-4D22-7ADEAF2784EB</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Buyer" id="D6DE5CE4-36B8-1124-5013-901A0AA6B303">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>5FE4C01C-C065-7F4D-A713-896FF323FEAF</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Full_name" id="430236B6-D5DC-3D72-483E-3E8C0E7A6204">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>F0BCC66E-98C4-D3DB-676A-9F12237A7333</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B03CCA1F-C79B-7E72-52A6-9D7E1E4CD04A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Age" id="ADF1852E-BB31-2A14-1529-9C136190D5A9">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>ADF07C06-8C5F-BFB5-875F-142259960B41</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EDFF0518-1933-ADD3-49A0-7836F9B050B0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFF59BBD-ED53-EAA3-BFAD-F4B06E98D02E" name="Buyers_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>561FE2EF-13BD-755B-EE48-6FE0D46F81C6</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6DE5CE4-36B8-1124-5013-901A0AA6B303"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

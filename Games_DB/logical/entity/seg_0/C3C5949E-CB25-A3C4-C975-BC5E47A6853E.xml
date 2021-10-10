@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3C5949E-CB25-A3C4-C975-BC5E47A6853E" name="Workers">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:29:47 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Worker" id="CFAE0C7F-26F0-A556-086B-CE01B7C9FC90">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:29:53 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="Full_name" id="90F1A8F1-8296-A49A-CD08-64BA210D59A8">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:31:01 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B03CCA1F-C79B-7E72-52A6-9D7E1E4CD04A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Age" id="A819CA78-002F-525E-CF16-9748D9FBFDC1">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:29:59 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EDFF0518-1933-ADD3-49A0-7836F9B050B0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="Position" id="1052278F-6F2B-8C8C-5BAB-FFE5A288BB7C">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:30:27 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B03CCA1F-C79B-7E72-52A6-9D7E1E4CD04A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Shop" id="1F081800-F65D-38EF-2D80-1AFDB86573F9">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:32:34 UTC</createdTime>
+<generatorID>2ABB935C-872D-3F40-F54D-745D249E9186</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<referedAttribute>C7205CD4-3F79-4AD7-3F97-85FE07D05307</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="ID_Order" id="35B71D51-6723-4D79-64E9-C376E5D26091">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:34:59 UTC</createdTime>
+<generatorID>FF4F73D9-9208-28E8-852F-C981A67C097C</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<referedAttribute>349B6B42-819F-65F0-058F-79A135CD20B5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51C0FCE6-5367-F6B8-6CDF-8231AAFE827C" name="Workers PK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:31:03 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFAE0C7F-26F0-A556-086B-CE01B7C9FC90</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

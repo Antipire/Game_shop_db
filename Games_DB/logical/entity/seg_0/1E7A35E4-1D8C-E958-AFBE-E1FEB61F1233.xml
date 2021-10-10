@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E7A35E4-1D8C-E958-AFBE-E1FEB61F1233" name="games_in_shops">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:41:13 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ammount" id="146A8460-48CE-4968-BADD-56D60819F779">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:41:13 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Games" id="3DA50074-B627-33FF-E5F6-47DA40EB1925">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:45:21 UTC</createdTime>
+<generatorID>5048BD22-10EB-EBED-6E8D-C0B035ACB98A</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<referedAttribute>69D93DC7-972D-7DEB-9F18-E75B229C5FFF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="ID_Shop" id="7E77BE68-0C06-57DB-CBA0-2CE19B409CB9">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:46:01 UTC</createdTime>
+<generatorID>E4AF356E-1541-BF4D-14FA-64E852834839</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<referedAttribute>C7205CD4-3F79-4AD7-3F97-85FE07D05307</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90AAADAB-9900-B448-6727-9A4041CCFDB8" name="games_in_shops PK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:41:13 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DA50074-B627-33FF-E5F6-47DA40EB1925</attributeRef>
+<attributeRef>7E77BE68-0C06-57DB-CBA0-2CE19B409CB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

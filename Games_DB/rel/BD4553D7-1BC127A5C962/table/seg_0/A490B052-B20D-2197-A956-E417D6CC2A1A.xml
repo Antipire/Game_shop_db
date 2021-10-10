@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A490B052-B20D-2197-A956-E417D6CC2A1A" name="games_in_shops">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>1E7A35E4-1D8C-E958-AFBE-E1FEB61F1233</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ammount" id="FCD70F0A-97F0-DB61-2D9D-2ECD7CC5B7EB">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>146A8460-48CE-4968-BADD-56D60819F779</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Games_ID_Games" id="8F19EA01-EB81-1DAC-EC41-B250502D5296">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>3DA50074-B627-33FF-E5F6-47DA40EB1925</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="56EC4AF6-AA58-89B6-73BE-E0C271AEDA84" referredColumn="176B779B-03A1-E5F8-832A-D430328F0FFC"/>
+</associations>
+</Column>
+<Column name="Shops_ID_Shop" id="C154F683-EAD7-CD69-EB03-B57BC601BB1D">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>7E77BE68-0C06-57DB-CBA0-2CE19B409CB9</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="96BE42B4-B6F2-567E-6B6F-89F654C1D399" referredColumn="8317EB2E-9B22-797F-CF4C-D8EB24D67B75"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F784437F-A944-7201-246A-0AC026AF8930" name="games_in_shops_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>90AAADAB-9900-B448-6727-9A4041CCFDB8</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F19EA01-EB81-1DAC-EC41-B250502D5296"/>
+<colUsage columnID="C154F683-EAD7-CD69-EB03-B57BC601BB1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AB9755B-A9CC-EA53-E57A-37FA000C2885" name="games_in_shops_Games_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>5048BD22-10EB-EBED-6E8D-C0B035ACB98A</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F19EA01-EB81-1DAC-EC41-B250502D5296"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CEDB8BA-2403-034C-03A1-372913306D18" name="games_in_shops_Shops_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>E4AF356E-1541-BF4D-14FA-64E852834839</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C154F683-EAD7-CD69-EB03-B57BC601BB1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

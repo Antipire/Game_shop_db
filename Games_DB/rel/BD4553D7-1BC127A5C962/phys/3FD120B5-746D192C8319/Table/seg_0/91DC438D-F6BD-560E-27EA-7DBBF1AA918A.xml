@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Buyers" directorySegmentName="seg_0" id="91DC438D-F6BD-560E-27EA-7DBBF1AA918A">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Full_name" id="430236B6-D5DC-3D72-483E-3E8C0E7A6204">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Age" id="ADF1852E-BB31-2A14-1529-9C136190D5A9">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Buyer" id="D6DE5CE4-36B8-1124-5013-901A0AA6B303">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Buyers_PK" id="BFF59BBD-ED53-EAA3-BFAD-F4B06E98D02E">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

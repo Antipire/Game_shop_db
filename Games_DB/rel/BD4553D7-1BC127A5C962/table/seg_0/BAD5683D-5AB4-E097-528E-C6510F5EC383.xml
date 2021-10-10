@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAD5683D-5AB4-E097-528E-C6510F5EC383" name="Games">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>73299DAB-15A3-D976-7DB2-3C6BC3F4855C</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Games" id="176B779B-03A1-E5F8-832A-D430328F0FFC">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>69D93DC7-972D-7DEB-9F18-E75B229C5FFF</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Game_name" id="0CCA8417-93F0-6051-59F0-4718CCFA6A8A">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>2D03A653-C97D-2D6E-246F-CFD46F2FB32A</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EE22DE51-B547-D042-FAAF-09F36AAC1E9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Age_restriction" id="61E4F0F5-4177-C08B-D190-94C54EF5D5F7">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>0978FB07-7EE6-060B-1357-C61BE3C4E1FC</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>EDFF0518-1933-ADD3-49A0-7836F9B050B0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Description" id="1E4CF130-A0D4-77D6-9639-042D27457C31">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>2FDA2D44-05D3-BC33-F57A-744EEE9E489F</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>246EFBA4-6BA7-05CB-3342-DFEA7BCCA742</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="F51AFD6B-E3CF-59F9-D58D-A08AB901CF67">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>CFB741FE-CFB6-1FA1-3059-75670374E0ED</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C486D345-09F0-BF58-BC3A-2247BBB419CF" name="Games_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>1D907A0D-F05C-64E4-2376-AD10FB06ADE5</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="176B779B-03A1-E5F8-832A-D430328F0FFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

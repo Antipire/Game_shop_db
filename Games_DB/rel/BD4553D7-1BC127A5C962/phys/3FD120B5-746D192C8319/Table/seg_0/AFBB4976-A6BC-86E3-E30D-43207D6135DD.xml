@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="buyers_order" directorySegmentName="seg_0" id="AFBB4976-A6BC-86E3-E30D-43207D6135DD">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Buyers_ID_Buyer" id="11151120-47CF-CA76-6305-7F854CDFA53F">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Orders_ID_Order" id="2A7BBE30-4F25-4195-AC86-C7829CD5FEBD">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="buyers_order_Orders_FK" id="21D1A27C-A41B-DDC5-EE07-A3AB9B909B86">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="buyers_order_Buyers_FK" id="5EE58ADF-E56E-D0D1-29A7-3DCD4CCADD5D">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="buyers_order_PK" id="C2BA65E9-288D-63EC-DE21-4172C864D411">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:58:40 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

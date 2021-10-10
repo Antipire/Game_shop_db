@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75C67F7B-32B8-79E9-09BB-5C65056DCF4F" name="Orders">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>6B0CC3E8-C6D0-13F7-2820-41FFDE1F1660</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Order" id="8D1C157D-F1C1-F56C-7635-4E029311FDDD">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>349B6B42-819F-65F0-058F-79A135CD20B5</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Date" id="32737F9A-BCB7-D539-482B-5FA4A30EB44E">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>3D70D1A1-1B14-477D-8C37-F6DF37CD6CBB</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Workers_ID_Worker" id="814CD498-1931-9D8A-F1D1-F70A9F5D0751">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>AEB199D4-7113-9DA8-FF22-B76B9D0BB42A</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+<associations>
+<colAssociation fkAssociation="DAC20804-1720-657B-D581-139F6FA0802F" referredColumn="9E486A24-E517-D71D-3276-8233DD3A67CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4D0599E-C816-4CE5-2351-AD5D469EF171" name="Orders_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>99065ACA-E026-E7A6-CB32-A6335728B5F7</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D1C157D-F1C1-F56C-7635-4E029311FDDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59A47F40-B6BB-86DB-3086-D740B245F52D" name="Orders__IDX">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FF4F73D9-9208-28E8-852F-C981A67C097C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="814CD498-1931-9D8A-F1D1-F70A9F5D0751"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF959BD7-EEE3-069D-D764-8410BA02716D" name="Orders_Workers_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<generatorID>FF4F73D9-9208-28E8-852F-C981A67C097C</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="814CD498-1931-9D8A-F1D1-F70A9F5D0751"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,28 +1,30 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F53277C-1A9E-0F96-0FED-445E97B68480" name="games_in_order">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F53277C-1A9E-0F96-0FED-445E97B68480" name="kmtm_game_order">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>8A84C268-AD39-6602-C4F0-592798152A29</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
+<ordsAlias>games_in_order</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Ammount" id="FF52793A-8A36-1BD1-F357-C1EF7628253C">
+<Column name="ammount" id="FF52793A-8A36-1BD1-F357-C1EF7628253C">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<commentInRDBMS>Ammount of bought games</commentInRDBMS>
 <generatorID>895DC2F9-B6C5-21AB-DD5F-EDD1F5276BC8</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="games_in_shops_Games_ID_Games" id="A5C70960-CAF2-446D-A32B-E2F8DF7B9A1A">
+<Column name="game_id" id="A5C70960-CAF2-446D-A32B-E2F8DF7B9A1A">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<commentInRDBMS>Foreign key to game_shop table</commentInRDBMS>
 <generatorID>E217B6D0-9056-5799-E7C4-55A62A261A2E</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <use>0</use>
@@ -41,9 +43,10 @@
 <colAssociation fkAssociation="33FF6A49-7F65-4DF3-8BD0-D521FF7DF419" referredColumn="8F19EA01-EB81-1DAC-EC41-B250502D5296"/>
 </associations>
 </Column>
-<Column name="games_in_shops_Shops_ID_Shop" id="868FE173-6EB4-A34C-3B83-50A9407EDC0F">
+<Column name="shop_id" id="868FE173-6EB4-A34C-3B83-50A9407EDC0F">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<commentInRDBMS>Foreign key to game_shop table</commentInRDBMS>
 <generatorID>4F2E7E8C-3F65-C517-B448-2E8A68C98A91</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <use>0</use>
@@ -62,9 +65,10 @@
 <colAssociation fkAssociation="33FF6A49-7F65-4DF3-8BD0-D521FF7DF419" referredColumn="C154F683-EAD7-CD69-EB03-B57BC601BB1D"/>
 </associations>
 </Column>
-<Column name="Orders_ID_Order" id="DF78108E-7B95-E3B9-64A4-BA4581B398E7">
+<Column name="order_id" id="DF78108E-7B95-E3B9-64A4-BA4581B398E7">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<commentInRDBMS>Foreign key to order table</commentInRDBMS>
 <generatorID>460E3EF4-E6F2-8FC7-E47C-E8C06FB3549C</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <use>0</use>
@@ -85,7 +89,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1E0D28BF-D4AB-7760-3508-3A5A1F9B9BBC" name="games_in_order_PK">
+<ind_PK_UK id="1E0D28BF-D4AB-7760-3508-3A5A1F9B9BBC" name="pk_kmtm_game_order">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>9E1C4581-2FDD-176D-F79D-B96EBC91716A</generatorID>
@@ -95,11 +99,29 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A5C70960-CAF2-446D-A32B-E2F8DF7B9A1A"/>
-<colUsage columnID="868FE173-6EB4-A34C-3B83-50A9407EDC0F"/>
 <colUsage columnID="DF78108E-7B95-E3B9-64A4-BA4581B398E7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="513DB1A5-D286-AF10-9EDD-CC4A94AA862B" name="gam_in_ord_gam_in_shops_fk">
+<ind_PK_UK id="1524DC46-2836-50AA-B026-B586D9CDD314" name="I_game_order_game_id_shop_id">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-20 12:37:58 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5C70960-CAF2-446D-A32B-E2F8DF7B9A1A"/>
+<colUsage columnID="868FE173-6EB4-A34C-3B83-50A9407EDC0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C26268A0-1895-CCE5-1946-83E80BF8B3E5" name="I_kmtm_game_order_order_id">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-20 12:38:13 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF78108E-7B95-E3B9-64A4-BA4581B398E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="513DB1A5-D286-AF10-9EDD-CC4A94AA862B" name="fk_kmtm_game_order_game_shop">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>235A55AD-141A-7F9C-93C2-337AAE309629</generatorID>
@@ -111,7 +133,7 @@
 <colUsage columnID="868FE173-6EB4-A34C-3B83-50A9407EDC0F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DD7DCB8F-0934-4BF0-0306-7916E2A79098" name="games_in_order_Orders_FK">
+<ind_PK_UK id="DD7DCB8F-0934-4BF0-0306-7916E2A79098" name="fk_kmtm_game_order_order">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>348EBD24-4769-B233-AD82-5EFA682D28F2</generatorID>

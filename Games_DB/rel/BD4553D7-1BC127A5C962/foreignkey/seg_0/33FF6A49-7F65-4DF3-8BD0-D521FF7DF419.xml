@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33FF6A49-7F65-4DF3-8BD0-D521FF7DF419" containerWithKeyObject="8F53277C-1A9E-0F96-0FED-445E97B68480" localFKIndex="513DB1A5-D286-AF10-9EDD-CC4A94AA862B" name="gam_in_ord_gam_in_shops_fk">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33FF6A49-7F65-4DF3-8BD0-D521FF7DF419" containerWithKeyObject="8F53277C-1A9E-0F96-0FED-445E97B68480" localFKIndex="513DB1A5-D286-AF10-9EDD-CC4A94AA862B" name="fk_kmtm_game_order_game_shop">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>235A55AD-141A-7F9C-93C2-337AAE309629</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
-<referredTableLongName>games_in_shops</referredTableLongName>
+<referredTableLongName>kmtm_game_shop</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>A490B052-B20D-2197-A956-E417D6CC2A1A</referredTableID>
 <keyObject>F784437F-A944-7201-246A-0AC026AF8930</keyObject>
 <referredKeyID>F784437F-A944-7201-246A-0AC026AF8930</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>Games_ID_Games,Shops_ID_Shop</refColNames>
+<refColNames>game_game_id,shop_shop_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk kmtm buyers order order" directorySegmentName="seg_0" id="CC757740-565F-BE56-AEC9-E23B301B3B39">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_18" directorySegmentName="seg_0" id="708327E4-547D-2860-99F4-1C09D9F39581">
 <createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:54:26 UTC</createdTime>
+<createdTime>2021-10-20 12:17:34 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
 </engineerTo>
-<sourcePk>99065ACA-E026-E7A6-CB32-A6335728B5F7</sourcePk>
-<identifying>true</identifying>
+<sourcePk>97B0C430-90BD-30C0-8172-43959731C3FB</sourcePk>
+<identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>6B0CC3E8-C6D0-13F7-2820-41FFDE1F1660</sourceEntity>
+<sourceEntity>EC1670AB-3D78-D119-3A9A-DA481297F23C</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>91CD12D9-1D52-F112-019A-E07451C3E153</targetEntity>
+<targetEntity>73299DAB-15A3-D976-7DB2-3C6BC3F4855C</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

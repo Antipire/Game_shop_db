@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73754F5E-D6EE-BF67-D9FC-C428AC3B78A5" name="shop">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC1670AB-3D78-D119-3A9A-DA481297F23C" name="developer">
 <createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:17:57 UTC</createdTime>
+<createdTime>2021-10-20 12:11:00 UTC</createdTime>
+<generatorID>C4A09FB4-1AC0-DB27-7554-F7A1AF9F2B9D</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
@@ -15,10 +16,35 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="shop id" id="C7205CD4-3F79-4AD7-3F97-85FE07D05307">
+<Attribute name="crew name" id="14E46968-CAB9-2136-FAED-90D7F579E20C">
 <createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:18:15 UTC</createdTime>
-<commentInRDBMS>Primary key</commentInRDBMS>
+<createdTime>2021-10-20 12:11:00 UTC</createdTime>
+<generatorID>72386871-633B-92DD-6450-32373146B18B</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B03CCA1F-C79B-7E72-52A6-9D7E1E4CD04A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="D8DFA48E-82D9-85A9-2D67-8C9DAE406DF3">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-20 12:11:00 UTC</createdTime>
+<generatorID>7D25FE06-0331-7343-EE65-387C1077089D</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EE22DE51-B547-D042-FAAF-09F36AAC1E9C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="developer_id" id="516ED4E1-1A57-D2F3-0394-EC98F6426586">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-20 12:12:40 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
@@ -34,46 +60,19 @@
 </rangeDef>
 </listOfRanges>
 </Attribute>
-<Attribute name="adress" id="99BB8B87-9098-BA8B-CF96-8DE47FC1D7C2">
-<createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:18:02 UTC</createdTime>
-<commentInRDBMS>Physical adress to shop</commentInRDBMS>
-<ownerDesignName>Games_DB</ownerDesignName>
-<engineerTo>
-<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>B03CCA1F-C79B-7E72-52A6-9D7E1E4CD04A</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="phone number" id="AF204F1D-7D4D-3F35-CE1A-DC78C330E9D6">
-<createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:18:33 UTC</createdTime>
-<commentInRDBMS>Phone number</commentInRDBMS>
-<ownerDesignName>Games_DB</ownerDesignName>
-<engineerTo>
-<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BAE552AD-F1F5-7526-AC69-849F5AFB1867" name="Shops PK">
+<identifier id="97B0C430-90BD-30C0-8172-43959731C3FB" name="developer PK">
 <createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:21:19 UTC</createdTime>
+<createdTime>2021-10-20 12:11:00 UTC</createdTime>
+<generatorID>08BB7277-2C86-B7D8-1013-9DC7FE34B013</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C7205CD4-3F79-4AD7-3F97-85FE07D05307</attributeRef>
+<attributeRef>516ED4E1-1A57-D2F3-0394-EC98F6426586</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E7A35E4-1D8C-E958-AFBE-E1FEB61F1233" name="games_in_shops">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E7A35E4-1D8C-E958-AFBE-E1FEB61F1233" name="kmtm game shop">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:41:13 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>
@@ -15,9 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Ammount" id="146A8460-48CE-4968-BADD-56D60819F779">
+<Attribute name="ammount" id="146A8460-48CE-4968-BADD-56D60819F779">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:41:13 UTC</createdTime>
+<commentInRDBMS>Number of available product</commentInRDBMS>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
@@ -28,9 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Games" id="3DA50074-B627-33FF-E5F6-47DA40EB1925">
+<Attribute name="game id" id="3DA50074-B627-33FF-E5F6-47DA40EB1925">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:45:21 UTC</createdTime>
+<commentInRDBMS>Foreing key to game table</commentInRDBMS>
 <generatorID>5048BD22-10EB-EBED-6E8D-C0B035ACB98A</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
@@ -48,9 +50,10 @@
 </rangeDef>
 </listOfRanges>
 </Attribute>
-<Attribute name="ID_Shop" id="7E77BE68-0C06-57DB-CBA0-2CE19B409CB9">
+<Attribute name="shop id" id="7E77BE68-0C06-57DB-CBA0-2CE19B409CB9">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:46:01 UTC</createdTime>
+<commentInRDBMS>Foreing key to shop table</commentInRDBMS>
 <generatorID>E4AF356E-1541-BF4D-14FA-64E852834839</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
@@ -70,7 +73,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="90AAADAB-9900-B448-6727-9A4041CCFDB8" name="games_in_shops PK">
+<identifier id="90AAADAB-9900-B448-6727-9A4041CCFDB8" name="games_in_shops_PK">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:41:13 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>

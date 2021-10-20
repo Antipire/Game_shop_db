@@ -1,16 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E9EE424-E89A-3017-1910-461AC45BD295" name="Shops">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E9EE424-E89A-3017-1910-461AC45BD295" name="shop">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>73754F5E-D6EE-BF67-D9FC-C428AC3B78A5</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
+<ordsAlias>shops</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_Shop" id="8317EB2E-9B22-797F-CF4C-D8EB24D67B75">
+<Column name="shop_id" id="8317EB2E-9B22-797F-CF4C-D8EB24D67B75">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<commentInRDBMS>Primary key</commentInRDBMS>
 <generatorID>C7205CD4-3F79-4AD7-3F97-85FE07D05307</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <use>0</use>
@@ -25,54 +27,33 @@
 </rangeDef>
 </listOfRanges>
 </Column>
-<Column name="Adress" id="ADEE40B9-43D9-4A52-0821-8A8BAE7F27EB">
+<Column name="adress" id="ADEE40B9-43D9-4A52-0821-8A8BAE7F27EB">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<commentInRDBMS>Physical adress to shop</commentInRDBMS>
 <generatorID>99BB8B87-9098-BA8B-CF96-8DE47FC1D7C2</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>B03CCA1F-C79B-7E72-52A6-9D7E1E4CD04A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Phone_number" id="12A3ECCD-2664-DB94-C388-241CFABEA77E">
+<Column name="phone_number" id="12A3ECCD-2664-DB94-C388-241CFABEA77E">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<commentInRDBMS>Phone number</commentInRDBMS>
 <generatorID>AF204F1D-7D4D-3F35-CE1A-DC78C330E9D6</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Workers_ID_Worker" id="9E4870EC-FF1B-CD9F-BE75-BAF9D67EF84D">
-<createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:55:53 UTC</createdTime>
-<generatorID>2318673B-9E8B-9F4B-C4C2-F016FD24CB45</generatorID>
-<ownerDesignName>Games_DB</ownerDesignName>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<listOfRanges>
-<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
-<beginValue>1</beginValue>
-<endValue>2147483647</endValue>
-</rangeDef>
-</listOfRanges>
-<associations>
-<colAssociation fkAssociation="801EE018-721D-AE29-E05D-B0DE4E2A8FFF" referredColumn="9E486A24-E517-D71D-3276-8233DD3A67CF"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3242D528-A451-4AAF-89B0-39BDAC25D10A" name="Shops_PK">
+<ind_PK_UK id="3242D528-A451-4AAF-89B0-39BDAC25D10A" name="pk_shop">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>BAE552AD-F1F5-7526-AC69-849F5AFB1867</generatorID>
@@ -82,28 +63,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8317EB2E-9B22-797F-CF4C-D8EB24D67B75"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7F23BB6F-E077-6A9E-DD95-2793154A0BBC" name="Shops__IDX">
-<createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:55:53 UTC</createdTime>
-<ownerDesignName>Games_DB</ownerDesignName>
-<indexState>Unique Plain Index</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<relationGeneratorID>2ABB935C-872D-3F40-F54D-745D249E9186</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="9E4870EC-FF1B-CD9F-BE75-BAF9D67EF84D"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="BB50432F-4B14-BF4A-E53D-863DB2090DDD" name="Shops_Workers_FK">
-<createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:55:53 UTC</createdTime>
-<generatorID>2ABB935C-872D-3F40-F54D-745D249E9186</generatorID>
-<ownerDesignName>Games_DB</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9E4870EC-FF1B-CD9F-BE75-BAF9D67EF84D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

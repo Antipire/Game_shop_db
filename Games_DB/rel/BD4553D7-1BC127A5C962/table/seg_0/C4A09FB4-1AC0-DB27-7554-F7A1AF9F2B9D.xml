@@ -1,19 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91DC438D-F6BD-560E-27EA-7DBBF1AA918A" name="buyer">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4A09FB4-1AC0-DB27-7554-F7A1AF9F2B9D" name="developer">
 <createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:55:53 UTC</createdTime>
-<generatorID>804BD952-C7D4-5967-4D22-7ADEAF2784EB</generatorID>
+<createdTime>2021-10-20 11:53:10 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>
-<ordsAlias>buyers</ordsAlias>
+<ordsAlias>table_10</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="buyer_id" id="D6DE5CE4-36B8-1124-5013-901A0AA6B303">
+<Column name="developer_id" id="351D7F81-350E-2C82-8872-C83B1D5573BD">
 <createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<createdTime>2021-10-20 12:18:26 UTC</createdTime>
 <commentInRDBMS>Primary key</commentInRDBMS>
-<generatorID>5FE4C01C-C065-7F4D-A713-896FF323FEAF</generatorID>
+<generatorID>516ED4E1-1A57-D2F3-0394-EC98F6426586</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -27,11 +26,10 @@
 </rangeDef>
 </listOfRanges>
 </Column>
-<Column name="full_name" id="430236B6-D5DC-3D72-483E-3E8C0E7A6204">
+<Column name="crew_name" id="72386871-633B-92DD-6450-32373146B18B">
 <createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:55:53 UTC</createdTime>
-<commentInRDBMS>Buyer full name</commentInRDBMS>
-<generatorID>F0BCC66E-98C4-D3DB-676A-9F12237A7333</generatorID>
+<createdTime>2021-10-20 11:54:36 UTC</createdTime>
+<commentInRDBMS>Crew name</commentInRDBMS>
 <ownerDesignName>Games_DB</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -39,37 +37,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="age" id="ADF1852E-BB31-2A14-1529-9C136190D5A9">
+<Column name="city" id="7D25FE06-0331-7343-EE65-387C1077089D">
 <createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:55:53 UTC</createdTime>
-<commentInRDBMS>Buyer age</commentInRDBMS>
-<generatorID>ADF07C06-8C5F-BFB5-875F-142259960B41</generatorID>
+<createdTime>2021-10-20 11:54:36 UTC</createdTime>
+<commentInRDBMS>City</commentInRDBMS>
 <ownerDesignName>Games_DB</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>EDFF0518-1933-ADD3-49A0-7836F9B050B0</domain>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EE22DE51-B547-D042-FAAF-09F36AAC1E9C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<listOfRanges>
-<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
-<beginValue>0</beginValue>
-<endValue>100</endValue>
-</rangeDef>
-</listOfRanges>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BFF59BBD-ED53-EAA3-BFAD-F4B06E98D02E" name="pk_buyer">
+<ind_PK_UK id="08BB7277-2C86-B7D8-1013-9DC7FE34B013" name="pk_developer">
 <createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:55:53 UTC</createdTime>
-<generatorID>561FE2EF-13BD-755B-EE48-6FE0D46F81C6</generatorID>
+<createdTime>2021-10-20 11:54:51 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D6DE5CE4-36B8-1124-5013-901A0AA6B303"/>
+<colUsage columnID="351D7F81-350E-2C82-8872-C83B1D5573BD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DAC20804-1720-657B-D581-139F6FA0802F" containerWithKeyObject="75C67F7B-32B8-79E9-09BB-5C65056DCF4F" localFKIndex="EF959BD7-EEE3-069D-D764-8410BA02716D" name="Orders_Workers_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DAC20804-1720-657B-D581-139F6FA0802F" containerWithKeyObject="75C67F7B-32B8-79E9-09BB-5C65056DCF4F" localFKIndex="EF959BD7-EEE3-069D-D764-8410BA02716D" name="fk_order_worker">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>FF4F73D9-9208-28E8-852F-C981A67C097C</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
-<referredTableLongName>Workers</referredTableLongName>
+<referredTableLongName>worker</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>29A058F9-FB7F-F463-A208-75D0DD4EC379</referredTableID>
 <keyObject>8126A2B8-696A-C805-8219-3F59229E66EE</keyObject>
 <referredKeyID>8126A2B8-696A-C805-8219-3F59229E66EE</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID_Worker</refColNames>
+<refColNames>worker_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B0CC3E8-C6D0-13F7-2820-41FFDE1F1660" name="Orders">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B0CC3E8-C6D0-13F7-2820-41FFDE1F1660" name="order">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:34:21 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>
@@ -15,9 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Order" id="349B6B42-819F-65F0-058F-79A135CD20B5">
+<Attribute name="order id" id="349B6B42-819F-65F0-058F-79A135CD20B5">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:34:29 UTC</createdTime>
+<commentInRDBMS>Primary key</commentInRDBMS>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
@@ -33,9 +34,10 @@
 </rangeDef>
 </listOfRanges>
 </Attribute>
-<Attribute name="Date" id="3D70D1A1-1B14-477D-8C37-F6DF37CD6CBB">
+<Attribute name="date" id="3D70D1A1-1B14-477D-8C37-F6DF37CD6CBB">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:34:36 UTC</createdTime>
+<commentInRDBMS>Date when order was complete</commentInRDBMS>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
@@ -46,9 +48,9 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Worker" id="AEB199D4-7113-9DA8-FF22-B76B9D0BB42A">
+<Attribute name="worker id" id="41D3FD0F-4939-8D01-31F0-D9BA2D1E1BFF">
 <createdBy>oracle</createdBy>
-<createdTime>2021-10-10 14:35:05 UTC</createdTime>
+<createdTime>2021-10-20 12:22:46 UTC</createdTime>
 <generatorID>FF4F73D9-9208-28E8-852F-C981A67C097C</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>

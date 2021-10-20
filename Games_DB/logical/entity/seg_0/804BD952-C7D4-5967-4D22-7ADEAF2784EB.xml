@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="804BD952-C7D4-5967-4D22-7ADEAF2784EB" name="Buyers">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="804BD952-C7D4-5967-4D22-7ADEAF2784EB" name="buyer">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:52:18 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>
@@ -15,9 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Buyer" id="5FE4C01C-C065-7F4D-A713-896FF323FEAF">
+<Attribute name="buyer id" id="5FE4C01C-C065-7F4D-A713-896FF323FEAF">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:52:25 UTC</createdTime>
+<commentInRDBMS>Primary key</commentInRDBMS>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
@@ -33,9 +34,10 @@
 </rangeDef>
 </listOfRanges>
 </Attribute>
-<Attribute name="Full_name" id="F0BCC66E-98C4-D3DB-676A-9F12237A7333">
+<Attribute name="full name" id="F0BCC66E-98C4-D3DB-676A-9F12237A7333">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:52:49 UTC</createdTime>
+<commentInRDBMS>Buyer full name</commentInRDBMS>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
@@ -46,9 +48,10 @@
 <domain>B03CCA1F-C79B-7E72-52A6-9D7E1E4CD04A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Age" id="ADF07C06-8C5F-BFB5-875F-142259960B41">
+<Attribute name="age" id="ADF07C06-8C5F-BFB5-875F-142259960B41">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:53:11 UTC</createdTime>
+<commentInRDBMS>Buyer age</commentInRDBMS>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>

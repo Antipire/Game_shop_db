@@ -1,16 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFBB4976-A6BC-86E3-E30D-43207D6135DD" name="buyers_order">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFBB4976-A6BC-86E3-E30D-43207D6135DD" name="kmtm_buyer_order">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>91CD12D9-1D52-F112-019A-E07451C3E153</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
+<ordsAlias>buyers_order</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Orders_ID_Order" id="2A7BBE30-4F25-4195-AC86-C7829CD5FEBD">
+<Column name="order_id" id="2A7BBE30-4F25-4195-AC86-C7829CD5FEBD">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<commentInRDBMS>Foreign key to order table</commentInRDBMS>
 <generatorID>1BD7DE93-CFAB-42D3-DCDB-F6A8C6B0C78E</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <use>0</use>
@@ -29,9 +31,10 @@
 <colAssociation fkAssociation="4E7989E6-774F-E5A5-A606-57284A8DB0F5" referredColumn="8D1C157D-F1C1-F56C-7635-4E029311FDDD"/>
 </associations>
 </Column>
-<Column name="Buyers_ID_Buyer" id="11151120-47CF-CA76-6305-7F854CDFA53F">
+<Column name="buyer_id" id="11151120-47CF-CA76-6305-7F854CDFA53F">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
+<commentInRDBMS>Foreign key to buyer table</commentInRDBMS>
 <generatorID>C8820CE2-182D-D084-7C56-E045A50B17FA</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <use>0</use>
@@ -52,7 +55,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C2BA65E9-288D-63EC-DE21-4172C864D411" name="buyers_order_PK">
+<ind_PK_UK id="C2BA65E9-288D-63EC-DE21-4172C864D411" name="pk_kmtm_buyer_order">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>C1062667-D80E-9A19-115A-B1DFF776E005</generatorID>
@@ -65,7 +68,25 @@
 <colUsage columnID="11151120-47CF-CA76-6305-7F854CDFA53F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="21D1A27C-A41B-DDC5-EE07-A3AB9B909B86" name="buyers_order_Orders_FK">
+<ind_PK_UK id="BF9229DC-E0B2-9A2E-484E-E07E984D6782" name="I_kmtm_buyer_order_order_id">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-20 12:35:30 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A7BBE30-4F25-4195-AC86-C7829CD5FEBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FDD05A3-ED5E-B907-C028-3E3ACA64D3C2" name="I_kmtm_buyer_order_buyer_id">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-20 12:35:44 UTC</createdTime>
+<ownerDesignName>Games_DB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11151120-47CF-CA76-6305-7F854CDFA53F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21D1A27C-A41B-DDC5-EE07-A3AB9B909B86" name="fk_kmtm_buyer_order_order">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>CC757740-565F-BE56-AEC9-E23B301B3B39</generatorID>
@@ -76,7 +97,7 @@
 <colUsage columnID="2A7BBE30-4F25-4195-AC86-C7829CD5FEBD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5EE58ADF-E56E-D0D1-29A7-3DCD4CCADD5D" name="buyers_order_Buyers_FK">
+<ind_PK_UK id="5EE58ADF-E56E-D0D1-29A7-3DCD4CCADD5D" name="fk_kmtm_buyer_order_buyer">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:55:53 UTC</createdTime>
 <generatorID>DE2A8773-BCE0-25FF-FFCB-8B5DA47D1D97</generatorID>

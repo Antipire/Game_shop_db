@@ -42,7 +42,6 @@
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>B03CCA1F-C79B-7E72-52A6-9D7E1E4CD04A</domain>
@@ -70,7 +69,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="561FE2EF-13BD-755B-EE48-6FE0D46F81C6" name="Buyers PK">
+<identifier id="561FE2EF-13BD-755B-EE48-6FE0D46F81C6" name="pk_buyer">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:53:29 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>

@@ -59,7 +59,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C1062667-D80E-9A19-115A-B1DFF776E005" name="buyers_order_PK">
+<identifier id="C1062667-D80E-9A19-115A-B1DFF776E005" name="pk_kmtm_buyer_order">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:54:47 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>

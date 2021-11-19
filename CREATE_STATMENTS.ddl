@@ -338,7 +338,7 @@ ALTER TABLE worker
     ADD CONSTRAINT fk_worker_shop FOREIGN KEY ( shop_id )
         REFERENCES shop ( shop_id );
 
-
+ALTER TABLE "order" RENAME TO "ORDER";
 
 -- Oracle SQL Developer Data Modeler Summary Report: 
 -- 

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk lmtm game shop shop" directorySegmentName="seg_0" id="E4AF356E-1541-BF4D-14FA-64E852834839">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk kmtm game shop shop" directorySegmentName="seg_0" id="E4AF356E-1541-BF4D-14FA-64E852834839">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:46:01 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>

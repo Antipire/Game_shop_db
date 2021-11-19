@@ -23,7 +23,6 @@
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -73,7 +72,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="90AAADAB-9900-B448-6727-9A4041CCFDB8" name="games_in_shops_PK">
+<identifier id="90AAADAB-9900-B448-6727-9A4041CCFDB8" name="pk_kmtm_game_shop">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:41:13 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>

@@ -19,6 +19,7 @@
 <Attribute name="publisher name" id="B8685E88-94B8-3ADE-C761-6CF53E9A273A">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-20 12:11:00 UTC</createdTime>
+<commentInRDBMS>Company name</commentInRDBMS>
 <generatorID>53C69C91-507D-B42C-FC8E-F1AD2049C1DF</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
@@ -32,6 +33,7 @@
 <Attribute name="city" id="CA954ADE-C12B-2BA6-600C-A297EBBFBF70">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-20 12:11:00 UTC</createdTime>
+<commentInRDBMS>City</commentInRDBMS>
 <generatorID>88D5A0E7-2068-3FB6-1016-0AE2366E5566</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
@@ -42,9 +44,10 @@
 <domain>EE22DE51-B547-D042-FAAF-09F36AAC1E9C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="publisher_id" id="91E193F8-9734-219B-0D69-91861BBE0C63">
+<Attribute name="publisher id" id="91E193F8-9734-219B-0D69-91861BBE0C63">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-20 12:13:32 UTC</createdTime>
+<commentInRDBMS>Primary key</commentInRDBMS>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
@@ -62,7 +65,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="28396147-FD4F-8B3A-5824-6044DDAF8860" name="publisher PK">
+<identifier id="28396147-FD4F-8B3A-5824-6044DDAF8860" name="pk_publisher">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-20 12:11:00 UTC</createdTime>
 <generatorID>25684485-F58D-8B3C-8DA5-BCD4D14E0A74</generatorID>

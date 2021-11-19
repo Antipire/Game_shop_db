@@ -42,7 +42,6 @@
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>EE22DE51-B547-D042-FAAF-09F36AAC1E9C</domain>
@@ -56,7 +55,6 @@
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>EDFF0518-1933-ADD3-49A0-7836F9B050B0</domain>
@@ -76,7 +74,6 @@
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>246EFBA4-6BA7-05CB-3342-DFEA7BCCA742</domain>
@@ -90,16 +87,16 @@
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
 <domain>B42EFF6D-551D-C1F9-ABF9-F3D07C6DC306</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="publisher_id" id="782775D0-357A-DF34-BAD4-0BFC4A2BAF9B">
+<Attribute name="publisher id" id="782775D0-357A-DF34-BAD4-0BFC4A2BAF9B">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-20 12:17:30 UTC</createdTime>
+<commentInRDBMS>Foreign key</commentInRDBMS>
 <generatorID>6C8F2441-B051-9DBF-3213-1342B95EC034</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
@@ -117,9 +114,10 @@
 </rangeDef>
 </listOfRanges>
 </Attribute>
-<Attribute name="developer_id" id="B06EBF21-43D5-BAD9-C4ED-6FDF422C0AAB">
+<Attribute name="developer id" id="B06EBF21-43D5-BAD9-C4ED-6FDF422C0AAB">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-20 12:17:34 UTC</createdTime>
+<commentInRDBMS>Foreign key</commentInRDBMS>
 <generatorID>708327E4-547D-2860-99F4-1C09D9F39581</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
@@ -139,7 +137,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1D907A0D-F05C-64E4-2376-AD10FB06ADE5" name="Games PK">
+<identifier id="1D907A0D-F05C-64E4-2376-AD10FB06ADE5" name="pk_game">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:09:02 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>

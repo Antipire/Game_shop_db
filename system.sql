@@ -1,0 +1,22 @@
+GRANT CREATE SESSION TO "intership";
+grant create table to "intership";
+grant create procedure to "intership";
+grant create trigger to "intership";
+grant create view to "intership";
+grant create sequence to "intership";
+grant alter any table to "intership";
+grant alter any procedure to "intership";
+grant alter any trigger to "intership";
+grant alter profile to "intership";
+grant delete any table to "intership";
+grant drop any table to "intership";
+grant drop any procedure to "intership";
+grant drop any trigger to "intership";
+grant drop any view to "intership";
+grant drop profile to "intership";
+/*grant select on sys.v_$session to "intership";
+grant select on sys.v_$sesstat to "intership";
+grant select on sys.v_$statname to "intership";
+*/
+grant SELECT ANY DICTIONARY to "intership";
+ALTER USER "intership" QUOTA UNLIMITED ON USERS;

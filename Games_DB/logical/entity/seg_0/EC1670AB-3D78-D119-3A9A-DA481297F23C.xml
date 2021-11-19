@@ -19,6 +19,7 @@
 <Attribute name="crew name" id="14E46968-CAB9-2136-FAED-90D7F579E20C">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-20 12:11:00 UTC</createdTime>
+<commentInRDBMS>Crew name</commentInRDBMS>
 <generatorID>72386871-633B-92DD-6450-32373146B18B</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
@@ -32,6 +33,7 @@
 <Attribute name="city" id="D8DFA48E-82D9-85A9-2D67-8C9DAE406DF3">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-20 12:11:00 UTC</createdTime>
+<commentInRDBMS>City</commentInRDBMS>
 <generatorID>7D25FE06-0331-7343-EE65-387C1077089D</generatorID>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
@@ -42,9 +44,10 @@
 <domain>EE22DE51-B547-D042-FAAF-09F36AAC1E9C</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="developer_id" id="516ED4E1-1A57-D2F3-0394-EC98F6426586">
+<Attribute name="developer id" id="516ED4E1-1A57-D2F3-0394-EC98F6426586">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-20 12:12:40 UTC</createdTime>
+<commentInRDBMS>Primary key</commentInRDBMS>
 <ownerDesignName>Games_DB</ownerDesignName>
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
@@ -62,7 +65,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="97B0C430-90BD-30C0-8172-43959731C3FB" name="developer PK">
+<identifier id="97B0C430-90BD-30C0-8172-43959731C3FB" name="pk_developer">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-20 12:11:00 UTC</createdTime>
 <generatorID>08BB7277-2C86-B7D8-1013-9DC7FE34B013</generatorID>

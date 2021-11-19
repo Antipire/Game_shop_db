@@ -23,7 +23,6 @@
 <engineerTo>
 <item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -91,9 +90,30 @@
 </rangeDef>
 </listOfRanges>
 </Attribute>
+<Attribute name="shop id1" id="6F7F4BF6-F5A4-E75E-0EF8-0A130128AF1E">
+<createdBy>oracle</createdBy>
+<createdTime>2021-10-20 12:45:30 UTC</createdTime>
+<commentInRDBMS>Foreign key to game_shop table</commentInRDBMS>
+<generatorID>235A55AD-141A-7F9C-93C2-337AAE309629</generatorID>
+<ownerDesignName>Games_DB</ownerDesignName>
+<engineerTo>
+<item key="BD4553D7-FD61-BA12-5344-1BC127A5C962" value="true"/>
+</engineerTo>
+<referedAttribute>7E77BE68-0C06-57DB-CBA0-2CE19B409CB9</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>9EB44F8E-3818-C912-DBD8-10A13EEBE468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>2147483647</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9E1C4581-2FDD-176D-F79D-B96EBC91716A" name="games_in_order_PK">
+<identifier id="9E1C4581-2FDD-176D-F79D-B96EBC91716A" name="pk_kmtm_game_order">
 <createdBy>oracle</createdBy>
 <createdTime>2021-10-10 14:50:49 UTC</createdTime>
 <ownerDesignName>Games_DB</ownerDesignName>
@@ -102,8 +122,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E217B6D0-9056-5799-E7C4-55A62A261A2E</attributeRef>
-<attributeRef>52E84AEB-C937-635A-5ED7-F0D67FFB2F13</attributeRef>
 <attributeRef>460E3EF4-E6F2-8FC7-E47C-E8C06FB3549C</attributeRef>
 </usedAttributes>
 </identifier>
